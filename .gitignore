@@ -28,3 +28,4 @@ pokemon_spider-*.tar
 deps
 elixir_ls
 _build
+result.json
