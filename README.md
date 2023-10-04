@@ -1,21 +1,13 @@
 # PokemonSpider
-
-**TODO: Add description**
-
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `pokemon_spider` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:pokemon_spider, "~> 0.1.0"}
-  ]
-end
+## Usage
+```
+iex -S mix
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/pokemon_spider>.
+and
+
+```
+PokemonSpider.get_pokemons(limit) # limit is optional
+```
+
 
